@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "gitlexa",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "WhatIsGitIntent",
+          "samples": [ 
+            "hi gitlexa how are you today", 
+            "tell me something about git", 
+            "what version control tool should I use", 
+            "what is git" 
+          ],
+          "slots": []
+        }, 
+        {
+          "name": "GetCommitMessageIntent",
+          "samples": [ 
+            "what is a commit message", 
+            "how do I know what a commit changed" 
+          ],
+          "slots": []
+        }, 
+        {
+          "name": "GetCompaniesUsingGItIntent",
+          "samples": [ 
+            "who uses git", 
+            "what companies use git", 
+            "what companies are using git", 
+            "do they use git"
+          ],
+          "slots": []
+        } 
+      ]
+    }
+  }
+}
